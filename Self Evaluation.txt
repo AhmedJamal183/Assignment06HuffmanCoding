@@ -1,0 +1,27 @@
+Ahmed Jamal
+F00534171
+
+1. How long did you spend on this assignment?
+
+Approx 4 Hours
+
+2. Based on your effort, what letter grade would you say you earned?
+
+Grade A
+
+
+3. Based on your solution, what letter grade would you say you earned?
+
+Grade A
+
+4. Provide a summary of what doesn't work in your solution, along with an explanation of how you attempted to solve the problem and where you feel you struggled.
+
+To Solve the problem of Huffman Tree
+First Create a leaf node for each unique character and build a min heap of all leaf nodes 
+Then compare two heap nodes Prints huffman codes from the root of Huffman Tree.
+Iterate while size of heap doesn't become one
+Extract the two minimum freq items from min heap
+Create a new internal node with frequency equal to the sum of the two nodes frequencies. 
+Make the two extracted node as left and right children of this new node. 
+Keep reapeating this process until the heap contains only one node.
+The remaining node is the root node and the tree is complete.
